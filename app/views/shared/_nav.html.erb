@@ -1,0 +1,13 @@
+<nav class="">
+  <div class="">
+    <span class= ''>
+      <%= @user.name %>
+    </span>
+    <% if controller_name == 'entities' and action_name == 'index' %>
+      <span class="text-white text-xl font-semibold">
+        Total Amount: $<%= @group.entities.reduce(0) { |sum, e| sum + e.amount } %>
+      </span>
+    <% end %>
+    <%= link_to "Sign out", destroy_user_session_path, data: { turbo_method: :delete }, class: 'text-white' %>
+  </div>
+</nav>
