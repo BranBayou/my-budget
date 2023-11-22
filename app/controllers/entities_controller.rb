@@ -1,7 +1,7 @@
 class EntitiesController < ApplicationController
   before_action :set_user
   before_action :set_group
-  
+
   def index
     @group = Group.find(params[:group_id])
     @entities = @group.entities.order(created_at: :desc)
@@ -10,7 +10,7 @@ class EntitiesController < ApplicationController
   def new
     @entity = Entity.new
   end
-   
+
   def create
     @entity = Entity.create(**entity_params, author_id: @user.id)
     @group = Group.find(params[:group_id])
@@ -23,7 +23,7 @@ class EntitiesController < ApplicationController
       render :new
     end
   end
-  
+
   def destroy
     @group = Group.find(params[:group_id])
     @entity = @group.entities.find(params[:id])
@@ -43,13 +43,14 @@ class EntitiesController < ApplicationController
     @group = Group.find(params[:group_id])
     @entity = @group.entities.find(params[:id])
     if @entity.update(**entity_params, author_id: @user.id)
-      redirect_to group_entities_path(@group) , notice: 'Category has been updated successfully'
+      redirect_to group_entities_path(@group), notice: 'Category has been updated successfully'
     else
       render :edit, status: :unprocessable_entity
     end
   end
 
   private
+
   def set_user
     @user = current_user
   end

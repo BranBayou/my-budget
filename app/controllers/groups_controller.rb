@@ -8,11 +8,11 @@ class GroupsController < ApplicationController
     @group = Group.find(params[:id])
     @entities = @group.entities.order(created_at: :desc)
   end
-  
+
   def new
-   @group = Group.new
+    @group = Group.new
   end
-  
+
   def create
     @group = Group.create(**group_params, author_id: @user.id)
 
@@ -31,7 +31,7 @@ class GroupsController < ApplicationController
   def update
     @group = @user.groups.find(params[:id])
     if @group.update(group_params)
-      redirect_to groups_path , notice: 'Category has been updated successfully'
+      redirect_to groups_path, notice: 'Category has been updated successfully'
     else
       render :edit, status: :unprocessable_entity
     end
@@ -47,13 +47,12 @@ class GroupsController < ApplicationController
   end
 
   private
-  
+
   def set_user
     @user = current_user
   end
-  
+
   def group_params
     params.require(:group).permit(:name, :icon)
   end
- 
 end
