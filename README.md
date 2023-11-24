@@ -56,9 +56,9 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Video Presentaion <a name="live-demo">https://www.loom.com/share/61f331921b974c76b0bfd2b6e51b8209?sid=5fa316cc-7bad-4a45-be69-aa8115efdfa3</a>
+## Video Presentaion <a href="https://www.loom.com/share/61f331921b974c76b0bfd2b6e51b8209?sid=5fa316cc-7bad-4a45-be69-aa8115efdfa3" name="live-demo">video-link</a>
 
-## Live Demo <a name="live-demo">https://my-budget-hq38.onrender.com</a>
+## Live Demo <a href="https://my-budget-hq38.onrender.com" name="live-demo-link">Live demo link</a>
 
 <!-- GETTING STARTED -->
 
