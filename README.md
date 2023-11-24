@@ -8,6 +8,8 @@
   - [Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [Video Presentation](#video-presentation)  
+  - [Live Demo](#live-demo)  
 - [Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -53,6 +55,10 @@
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Video Presentaion <a name="live-demo">https://www.loom.com/share/61f331921b974c76b0bfd2b6e51b8209?sid=5fa316cc-7bad-4a45-be69-aa8115efdfa3</a>
+
+## Live Demo <a name="live-demo"></a>
 
 <!-- GETTING STARTED -->
 
