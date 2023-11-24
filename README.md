@@ -149,6 +149,9 @@ If you like this project please show support by staring ￼.
 
 * We would like to thank our Microverse team and our coding partners for their support and guidance.
 
+* I also would like to acknowledge <a href="https://www.behance.net/gregoirevella">regoire Vella on Behance</a> for his design.
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
