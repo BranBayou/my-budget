@@ -8,6 +8,8 @@
   - [Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [Video Presentation](#video-presentation)  
+  - [Live Demo](#live-demo)  
 - [Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -53,6 +55,10 @@
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Video Presentaion <a href="https://www.loom.com/share/61f331921b974c76b0bfd2b6e51b8209?sid=5fa316cc-7bad-4a45-be69-aa8115efdfa3" name="live-demo">video-link</a>
+
+## Live Demo <a href="https://my-budget-hq38.onrender.com" name="live-demo-link">Live demo link</a>
 
 <!-- GETTING STARTED -->
 
@@ -142,6 +148,9 @@ If you like this project please show support by staring ￼.
 ## Acknowledgments <a name="acknowledgements"></a>
 
 * We would like to thank our Microverse team and our coding partners for their support and guidance.
+
+* I also would like to acknowledge <a href="https://www.behance.net/gregoirevella">regoire Vella on Behance</a> for his design.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
